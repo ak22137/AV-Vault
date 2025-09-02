@@ -26,4 +26,5 @@ public class CameraFit : MonoBehaviour
             Camera.main.rect = new Rect(0, (1.0f - variance) / 2.0f, 1.0f, variance);
         }
     }
+
 }
